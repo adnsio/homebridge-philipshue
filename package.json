@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-philipshue",
+  "version": "1.0.0",
+  "description": "Philips Hue plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "author": "Alessio Dionisi <hello@adns.io>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnsio/homebridge-philipshue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adnsio/homebridge-philipshue/issues"
+  },
+  "homepage": "https://github.com/adnsio/homebridge-philipshue#readme",
+  "keywords": [
+    "homebridge-plugin",
+    "philipshue",
+    "hue",
+    "philips"
+  ],
+  "dependencies": {
+    "huejay": "^1.8.4"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "homebridge": ">=0.4.0"
+  }
+}
