@@ -66,6 +66,6 @@ module.exports = function(homebridge) {
   Statics.Characteristic = homebridge.hap.Characteristic
   Statics.UUIDGen = homebridge.hap.uuid
   Statics.PlatformName = 'PhilipsHue'
-  Statics.PlatformId = 'homebridge-philipshue'
+  Statics.PlatformId = 'homebridge-phue'
   homebridge.registerPlatform(Statics.PlatformId, Statics.PlatformName , PhilipsHue, true)
 }
